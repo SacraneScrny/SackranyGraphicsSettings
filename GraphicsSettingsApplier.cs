@@ -1,5 +1,6 @@
-using Sackrany.ConfigSystem.SackranyConfig;
 using Sackrany.GraphicsSettings.SackranyGraphicsSettings.Configs;
+
+using SackranyConfig;
 
 using UnityEngine;
 using UnityEngine.Rendering.Universal;

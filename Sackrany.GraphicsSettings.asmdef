@@ -2,9 +2,9 @@
     "name": "Sackrany.GraphicsSettings",
     "rootNamespace": "Sackrany.GraphicsSettings",
     "references": [
-        "Sackrany.Config",
         "Unity.RenderPipelines.Core.Runtime",
-        "Unity.RenderPipelines.Universal.Runtime"
+        "Unity.RenderPipelines.Universal.Runtime",
+        "SackranyConfig"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
