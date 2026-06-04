@@ -1,0 +1,21 @@
+{
+    "name": "Sackrany.GraphicsSettings.Editor",
+    "rootNamespace": "Sackrany.GraphicsSettings.Editor",
+    "references": [
+        "Sackrany.GraphicsSettings",
+        "Sackrany.Config",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
