@@ -1,17 +1,17 @@
-# Sackrany.GraphicsSettings
+# SackranyGraphicsSettings
 
-Настройки графики (разрешение, качество, тени, текстуры, URP-ассет) в одном конфиге.
-Выделено из растворённого `GameSettings`.
+Graphics settings (resolution, quality, shadows, textures, URP asset) in a single config.
 
 ```csharp
 ConfigSet<GraphicsConfig>.DoAndSave(c => c.QualityLevel = 3);
-GraphicsSettingsApplier.Apply();   // применить к движку
+GraphicsSettingsApplier.Apply();   // apply to the engine
 ```
 
-В билде сохранённый `GraphicsConfig` применяется автоматически на старте
-(`AfterSceneLoad`). В редакторе авто-применение отключено, чтобы не дёргать окно.
+In a build, the saved `GraphicsConfig` is applied automatically on startup
+(`AfterSceneLoad`). In the editor, auto-apply is disabled so it doesn't change
+the window resolution/quality.
 
-**Конфиг:** `GraphicsConfig` (динамический).
-**Зависимости:** `Sackrany.Config`, URP.
-**Editor:** `Sackrany/GraphicsSettings/Generate Default Config` — снять текущие настройки
-проекта в дефолтный json.
+**Config:** `GraphicsConfig` (dynamic).
+**Dependencies:** `SackranyConfig`, URP.
+**Editor:** `Sackrany/GraphicsSettings/Generate Default Config` — capture the
+current project settings into the default json.

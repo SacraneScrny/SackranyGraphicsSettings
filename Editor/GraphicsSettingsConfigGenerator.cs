@@ -3,14 +3,14 @@ using System.IO;
 
 using Newtonsoft.Json;
 
-using Sackrany.GraphicsSettings.SackranyGraphicsSettings.Configs;
+using SackranyGraphicsSettings.Configs;
 
 using UnityEditor;
 
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
-namespace Sackrany.GraphicsSettings.Editor.SackranyGraphicsSettings.Editor
+namespace SackranyGraphicsSettings.Editor
 {
     public static class GraphicsSettingsConfigGenerator
     {
