@@ -9,7 +9,7 @@ namespace SackranyGraphicsSettings
 {
     public static class GraphicsSettingsApplier
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
         static void AutoApply()
         {
 #if !UNITY_EDITOR
